@@ -2,13 +2,22 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const siteUrl = "https://barat-invitation.vercel.app";
+const title = "Baraat Celebration | Muhammad Zeeshan Azhar Malik";
+const description = "Saturday, 7th November 2026 at 7:00 PM onwards. West Canal Road, Farooqabad, Mansoorabad.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Baraat",
-  description: "You are invited to celebrate the Baraat Night of Muhammad Zeeshan Azhar Malik.",
-  openGraph: { title: "Baraat Night | Muhammad Zeeshan Azhar Malik", description: "Friday, 6th November 2026 · West Canal Road, Farooqabad, Mansoorabad" },
-  twitter: { card: "summary_large_image", title: "Baraat Night | Muhammad Zeeshan Azhar Malik" },
+  title,
+  description,
+  openGraph: {
+    type: "website",
+    url: "/",
+    siteName: "Baraat Invitation",
+    title,
+    description,
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Baraat Celebration invitation for Muhammad Zeeshan Azhar Malik" }],
+  },
+  twitter: { card: "summary_large_image", title, description, images: ["/opengraph-image"] },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
