@@ -33,7 +33,7 @@ export default function Home() {
   };
   return <main>
     <section id="home" className="hero">
-      {videoAvailable && (<video className="hero-video" autoPlay loop muted playsInline poster="/baraat-botanical-backdrop.png"><source src="/" type="video/mp4" /></video>)}
+      {videoAvailable && (<video className="hero-video" autoPlay loop muted playsInline poster="/baraat-botanical-backdrop.webp"><source src="/" type="video/mp4" /></video>)}
       <div className="hero-overlay" /><div className="hero-content">
         <p className="hero-event">Baraat</p><p className="hero-host">MR. &amp; MRS. AZHAR BASHIR</p><p className="hero-copy">CORDIALLY INVITE YOU<br />TO CELEBRATE THE BARAAT NIGHT<br />OF THEIR BELOVED SON</p>
         <h1>Muhammad Zeeshan Azhar Malik</h1><p className="bride-name">with Daughter of Tahir Malik</p><p className="program">Programme In-sha-Allah</p><div className="hero-date"><span /><b>Saturday</b><span /></div><p>7th &nbsp;|&nbsp; NOVEMBER &nbsp;|&nbsp; 2026</p><p>BARAAT CELEBRATION</p>
