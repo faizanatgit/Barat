@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "Baraat Invitation",
     title,
     description,
-    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Baraat invitation for Muhammad Zeeshan Azhar Malik" }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 1200, alt: "Baraat invitation for Muhammad Zeeshan Azhar Malik" }],
   },
   twitter: { card: "summary_large_image", title, description, images: ["/opengraph-image"] },
 };
