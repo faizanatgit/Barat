@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const siteUrl = "https://barat-six.vercel.app";
-const title = "Baraat | Muhammad Zeeshan Azhar Malik";
+const title = "Baraat | Muhammad Zeeshan Azher Malik";
 const description = "Saturday, 7th November 2026 at 7:00 PM onwards. West Canal Road, Farooqabad, Mansoorabad.";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "Baraat Invitation",
     title,
     description,
-    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Baraat invitation for Muhammad Zeeshan Azhar Malik" }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Baraat invitation for Muhammad Zeeshan Azher Malik" }],
   },
   twitter: { card: "summary_large_image", title, description, images: ["/opengraph-image"] },
 };
